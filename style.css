@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#navigation {
+  background-color: rgba(240, 238, 238, 0.687);
+}
+.logo {
+  width: 10rem;
+}
+/* category menu start */
+#category-menu {
+  width: 86%;
+  padding: 40px 28px;
+  border-radius: 15px;
+  background-color: rgba(240, 238, 238, 0.687);
+  border-top: 3px solid rgb(188, 133, 30);
+}
+
+/* category menu end */
+
+/* price card style start */
+.card-item img {
+  width: 94px;
+  border-radius: 10px;
+  border: 2px solid rgb(235, 233, 233);
+}
+.card-item h4 {
+  margin-left: 15px;
+}
+
+#chair-input {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid #999;
+  text-align: center;
+}
+/* price card style end */
+
+/* summary style start */
+
+.summary {
+  width: 86%;
+  padding: 40px 35px 40px 30px;
+  border-radius: 15px;
+  background-color: rgba(240, 238, 238, 0.687);
+}
+#summary-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+/* summary style end */
