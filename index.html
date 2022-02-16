@@ -103,7 +103,7 @@
                 class="card-item d-flex justify-content-center align-items-center col-4"
               >
                 <img class="img-fluid" src="images/chair.jpg" alt="" />
-                <h4 class="fw-bold text-muted">Wooden Sofa</h4>
+                <h4 class="fw-bold text-muted">Wooden Chair</h4>
               </div>
               <div
                 class="d-flex justify-content-center align-items-center col-5"
@@ -113,7 +113,7 @@
                   class="fa-solid fa-minus fw-bold text-muted fs-4"
                 ></i>
                 <input
-                  class="mx-5 fs-4 fw-bold text-muted"
+                  class="mx-5 fs-4 fw-bold text-muted input-field"
                   type="text"
                   name=""
                   id="chair-input"
@@ -148,18 +148,18 @@
                 class="d-flex justify-content-center align-items-center col-5"
               >
                 <i
-                  id="chair-minus"
+                  id="sofa-minus"
                   class="fa-solid fa-minus fw-bold text-muted fs-4"
                 ></i>
                 <input
-                  class="mx-5 fs-4 fw-bold text-muted"
+                  class="mx-5 fs-4 fw-bold text-muted input-field"
                   type="text"
                   name=""
-                  id="chair-input"
+                  id="sofa-input"
                   value="1"
                 />
                 <i
-                  id="chair-plus"
+                  id="sofa-plus"
                   class="fa-solid fa-plus fw-bold text-muted fs-4"
                 ></i>
               </div>
@@ -167,7 +167,7 @@
                 class="d-flex justify-content-center align-items-center col-3"
               >
                 <h4 class="fs-4 fw-bold text-muted mx-3 mt-2">
-                  $<span>25.00</span>
+                  $<span>68.00</span>
                 </h4>
                 <i class="fa-solid fa-x fw-bolder text-muted fs-6"></i>
               </div>
@@ -181,24 +181,24 @@
                 class="card-item d-flex justify-content-center align-items-center col-4"
               >
                 <img class="img-fluid" src="images/mini-table.png" alt="" />
-                <h4 class="fw-bold text-muted">Wooden Sofa</h4>
+                <h4 class="fw-bold text-muted">Mini Table</h4>
               </div>
               <div
                 class="d-flex justify-content-center align-items-center col-5"
               >
                 <i
-                  id="chair-minus"
+                  id="table-minus"
                   class="fa-solid fa-minus fw-bold text-muted fs-4"
                 ></i>
                 <input
-                  class="mx-5 fs-4 fw-bold text-muted"
+                  class="mx-5 fs-4 fw-bold text-muted input-field"
                   type="text"
                   name=""
-                  id="chair-input"
+                  id="table-input"
                   value="1"
                 />
                 <i
-                  id="chair-plus"
+                  id="table-plus"
                   class="fa-solid fa-plus fw-bold text-muted fs-4"
                 ></i>
               </div>
@@ -206,7 +206,7 @@
                 class="d-flex justify-content-center align-items-center col-3"
               >
                 <h4 class="fs-4 fw-bold text-muted mx-3 mt-2">
-                  $<span>25.00</span>
+                  $<span>90.00</span>
                 </h4>
                 <i class="fa-solid fa-x fw-bolder text-muted fs-6"></i>
               </div>
@@ -220,29 +220,35 @@
             </h3>
             <div class="d-flex justify-content-between align-items-center mb-2">
               <h4 class="fs-5 fw-bold text-muted mt-3 px-3">Sub Total</h4>
-              <h4 class="fs-5 fw-bold text-muted mt-3">$<span>453</span></h4>
+              <h4 class="fs-5 fw-bold text-muted mt-3">
+                $<span id="sub-total-amount">453</span>
+              </h4>
             </div>
             <div class="d-flex justify-content-between align-items-center mb-2">
-              <h4 class="fs-5 fw-bold text-muted mt-3 px-3">Sub Total</h4>
-              <h4 class="fs-5 fw-bold text-muted mt-3">$<span>453</span></h4>
+              <h4 class="fs-5 fw-bold text-muted mt-3 px-3">Promo Code</h4>
+              <h4 class="fs-5 fw-bold text-muted mt-3">SALE22</h4>
             </div>
             <div
               class="d-flex justify-content-between align-items-center mb-2 pb-4 border-bottom border-2"
             >
-              <h4 class="fs-5 fw-bold text-muted mt-3 px-3">Sub Total</h4>
-              <h4 class="fs-5 fw-bold text-muted mt-3">$<span>453</span></h4>
+              <h4 class="fs-5 fw-bold text-muted mt-3 px-3">Tax</h4>
+              <h4 class="fs-5 fw-bold text-muted mt-3">
+                $<span id="tax-amount">9.15</span>
+              </h4>
             </div>
             <div class="d-flex justify-content-between align-items-center mb-3">
-              <h4 class="fs-5 fw-bold text-warning mt-3 px-3">Sub Total</h4>
-              <h4 class="fs-3 fw-bold text-warning mt-3">$<span>453</span></h4>
+              <h4 class="fs-5 fw-bold text-warning mt-3 px-3">Order Total</h4>
+              <h4 class="fs-3 fw-bold text-warning mt-3">
+                $<span id="total-amount">192</span>
+              </h4>
             </div>
 
             <div class="text-center">
               <button
                 type="button"
-                class="btn btn-outline-warning text-muted px-5 py-3 my-4 fs-4 fw-bold rounded-pill"
+                class="btn btn-outline-warning text-muted px-4 py-3 my-4 fs-5 fw-bold rounded-pill"
               >
-                Warning
+                Add To Cart
               </button>
             </div>
           </div>
