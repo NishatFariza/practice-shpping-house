@@ -2,7 +2,7 @@ function productUpdateNumber( product, price, isIncrease){
     const productInput =document.getElementById(product + '-input');
     let productInputNumber =productInput.value;
     
-    console.log(productUpdateNumber);
+    // console.log(productUpdateNumber);
     // console.log(productInputNumber);  
 
     if(isIncrease == true){
@@ -12,7 +12,7 @@ function productUpdateNumber( product, price, isIncrease){
     else if(productInputNumber > 0){
         productInputNumber = parseInt(productInputNumber) -1;
     }
-     productInputNumber.value = productInputNumber;
+     productInput.value = productInputNumber;
 
 
     // update total 
@@ -39,7 +39,7 @@ function productCalculateTotal(){
     const sofaTotal =getInputValue('sofa') * 68;
     const tableTotal =getInputValue('table') * 90;
     const subTotal = chairTotal + sofaTotal + tableTotal;
-    const tax  =subTotal(9.15/100);
+    const tax  =subTotal *(9.15/100);
     const totalAmount =subTotal +tax;
 
     //update on the html
